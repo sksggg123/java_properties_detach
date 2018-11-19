@@ -68,7 +68,7 @@
             <property name= "locations">
                 <!-- 밑에 classpath 은 pom.xml에 설정하였다. -->
                 <!-- <directory>src/main/resources/${env}</directory> -->
-                <!-- 위의 설정으로 인해 classpath가 src/main.resources/dev/ 로 설정이 됨 -->
+                <!-- 위의 설정으로 인해 classpath가 src/main/resources/dev/ 로 설정이 됨 -->
                 <value>classpath:config.properties</value >
             </property>
         </bean>
